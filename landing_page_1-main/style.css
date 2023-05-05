@@ -1,0 +1,94 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff;
+}
+
+.header {
+
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.893);
+}
+
+.header-logo {
+    float: left;
+    margin-bottom: 10px;
+    padding-left: 90px;
+}
+
+.header-info {
+    float: right;
+    color: white;
+    padding-right: 90px;
+}
+.circle {
+    height: 140px;
+    width: 140px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    margin: auto;
+    
+    
+  }
+
+.main-info {
+    background-color: #000;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.9)), URL("img/river-surrounded-by-forests-under-a-cloudy-sky-in-thuringia-in-germany.jpg");
+    text-align: center;
+    height: 580px;
+    background-size: cover;
+    
+}
+
+
+
+.main-info-text {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 70px;
+}
+
+.caring-for {
+    font-size: 20px;
+    color: white;
+}
+
+.biosec {
+    background-color: rgba(0, 0, 0, 0.893);
+}
+.biosec-text {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+}
+.biosec-text2 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-right: 350px;
+    color: grey;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.button1 {
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+    
+}
