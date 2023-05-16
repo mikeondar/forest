@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1 {
+    color: #fff;
+    font-size: 130px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+
+.header {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+
+.header-logo {
+    font-size: 20px;
+    float: left;
+} 
+
+.header-info {
+    font-size: 20px;
+    float: right;
+}
+
+.main-info {
+    background-color: #000;
+    background-image: URL("/img/background.jpg");
+    text-align: center;
+    padding-top: 150px;
+    height: 785px;
+    background-size: cover;
+}
+
+.circle {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: #879D00;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.biosecurity {
+    background: #1E1E1E;
+    height: 550px;
+    text-align: center;
+    padding: 85px;
+    
+}
+
+.biosecurity h2 {
+    font-size: 50px;
+    margin-bottom: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.biosecurity .main-text {
+    height: 90px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 65px;
+    font-size: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+    
+}
+
+button {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    width: 230px;
+    height: 70px;
+    border-radius: 30px;
+    background: #52ad7b;
+    border: none;
+    
+}
+
+button:hover {
+    background-color: #2f6e4c;
+    cursor: pointer;
+}
+
+.more-information {
+    background: rgb(248, 247, 246);
+    height: 850px;
+}
+
+.more-information .left-info {
+    float: left;
+    height: 400px;
+    width: 700px;
+
+}
+
+.more-information .left-info-text1 {
+    padding-top: 110px;
+    padding-bottom: 20px;
+    padding-left: 270px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.more-information .left-info-text2 {
+    font-size: 20px;
+    padding-left: 270px;
+    padding-bottom: 70px;
+}
+
+.more-information .more-information-image {
+    padding-left: 270px;
+    padding-bottom: 60px;
+    
+}
+
+.more-information .right-info {
+    
+    float: right;
+    height: 700px;
+    width: 550px;
+    font-weight: 400px;
+    background-color: rgb(150, 146, 146);
+    margin-top: 100px;
+    margin-right: 100px;
+
+}
+
+.more-information .right-circle {
+    border-radius: 200px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(92, 153, 92);
+    margin: auto;
+    margin-top: 80px;
+}
+
+.more-information .right-info-text1 {
+    padding-top: 40px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.more-information .right-info-text2 {
+    margin-left: 120px;
+    font-size: 18px;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    width: 410px;
+}
+
+.more-information .right-button {
+    padding-top: 60px;
+    text-align: center;
+}
